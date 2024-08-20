@@ -42,9 +42,9 @@ header {
 }
 @media only screen and (max-width: 598px) {
   .logo-inicio {
-   width: 50% !important;
+    width: 50% !important;
   }
-  .nav-ul{
+  .nav-ul {
     gap: 1rem;
   }
 }
@@ -90,7 +90,7 @@ header {
   font-weight: lighter;
 }
 @media only screen and (max-width: 598px) {
-  .informacion-gema{
+  .informacion-gema {
     font-size: 15px;
     width: 80%;
   }
@@ -117,14 +117,14 @@ section {
 .carts-container {
   gap: 30px;
   display: grid;
-  grid-template-columns: repeat(3,28%);
+  grid-template-columns: repeat(3, 28%);
   justify-content: center;
 }
 @media only screen and (max-width: 598px) {
-  .carts-container{
+  .carts-container {
     display: grid;
     grid-template-columns: repeat(2, 45%);
-    gap: 15px; 
+    gap: 15px;
     width: 100%;
   }
 }
@@ -135,7 +135,7 @@ section {
   height: 100vh;
   background-color: #09042a;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .preguntas {
