@@ -1,11 +1,11 @@
 //base
-@import "base/reset";
-@import "base/vars";
+@import "./base/reset";
+@import "./base/vars";
 //components
-@import "components/header";
-@import "components/grids";
-@import "components/acordion";
-@import "components/footer";
+@import "./components/header";
+@import "./components/grids";
+@import "./components/acordion";
+@import "./components/footer";
 //layout
-@import "layout/index";
-@import "layout/mediaqueries";
+@import "./layout/index";
+@import "./layout/mediaqueries";
