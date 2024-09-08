@@ -115,7 +115,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(multimedia/Logos/img.fondo.jpeg);
+  background-image: url(../images/img.fondo.jpeg);
 }
 .quienes-somos-container :before {
   content: "";
