@@ -1,0 +1,21 @@
+//carts
+.titulo-disiplinas {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: $color-carts;
+  }
+  .vid {
+    border: 1px solid $color-carts ;
+    width: 100%;
+  }
+  .carts-container {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    justify-content: center;
+  }
+  .carts-container *:last-child:nth-child(3n - 2) {
+    grid-column-start: 2;
+  }

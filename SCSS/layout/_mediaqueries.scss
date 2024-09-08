@@ -1,0 +1,29 @@
+@media only screen and (max-width: 598px) {
+    .logo-inicio {
+      width: 50% !important;
+    }
+    .nav-ul {
+      gap: 1rem;
+    }
+  }
+  /* fin de header */
+  
+  /* main */
+  @media only screen and (max-width: 598px) {
+    .informacion-gema {
+      font-size: 15px;
+      width: 80%;
+    }
+  }
+  /* Fin de main */
+
+  /* disiplinas */
+  @media only screen and (max-width: 598px) {
+    .carts-container {
+      display: grid;
+      grid-template-columns: repeat(2, 45%);
+      gap: 15px;
+      width: 100%;
+    }
+  }
+  /*fin disiplinas*/

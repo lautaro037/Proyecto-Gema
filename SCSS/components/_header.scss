@@ -1,0 +1,31 @@
+.nav-ul {
+    gap: 4rem;
+  }
+  
+  .container-nav {
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+  }
+  .navbar-nav .nav-link {
+    color: $color-letras !important;
+  }
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  .logo-inicio {
+    width: 30%;
+  }
